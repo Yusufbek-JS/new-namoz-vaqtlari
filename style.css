@@ -1,0 +1,159 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+body {
+  background-color: rgb(41, 141, 28);
+}
+
+.container {
+  text-align: center;
+  line-height: normal;
+}
+.main-container-title {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.white-line {
+  width: 1258px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.50);
+}
+.select-container {
+  margin: 0 auto;
+  width: 441px;
+  height: 46px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.select-container label {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.select-option option {
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background:transparent;
+}
+.select-option select {
+  border: 1px solid #FFF;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.select-option select:hover {
+  cursor: pointer;
+  background: #FFC700;
+}
+/* ============================= SECTION Date =============================== */
+.date-content {
+  width: 1291px;
+  height: 40px;
+  top: 262px;
+  left: 331px;
+  display: flex;
+  justify-content: space-around;
+}
+.date-mintaqa {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.date-mintaqa span {
+  color: #FFC700;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.date-year-day {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.date-year-day span {
+  color: #FFC700;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+
+
+/* ============================= SECTION TIME =============================== */
+.time-content {
+  width: 1698px;
+  height: 397px;
+  top: 382px;
+  left: 110px;
+  display: grid;
+  grid-template-columns: repeat(6, 14rem);
+  gap: 2rem;
+}
+.time-item {
+  background-color: #252525;
+  margin: 5rem auto;
+  border-radius:25px;
+  width: 200px;
+  height: 397px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow:2rem;
+}
+.time-item:hover {
+  transform: scale(1.05 , 1.05);
+  background:rgba(255, 255, 255, 0.05);
+  .time-item-title {
+    color:#FFF;
+  }
+}
+.time-item-title {
+  color: #FFC700;
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.time-item-img {
+  width: 200px;
+  height: 300px;
+}
+.time-item-time {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
