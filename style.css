@@ -11,6 +11,9 @@ body {
   text-align: center;
   line-height: normal;
 }
+.main-container {
+  line-height: 3rem;
+}
 .main-container-title {
   color: #FFF;
   font-family: Jost;
@@ -18,8 +21,10 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 2rem;
 }
 .white-line {
+  margin: 0 5rem;
   width: 1258px;
   height: 3px;
   background: rgba(255, 255, 255, 0.50);
